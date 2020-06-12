@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">EggTimerApp</string>
+    <string name="todo">TODO</string>
+
+    <string name="_00_30">00:30</string>
+
+</resources>
