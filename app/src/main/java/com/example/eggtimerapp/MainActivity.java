@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     Button controllerButton;
     Boolean counterIsActive=false;
     CountDownTimer countDownTimer;
-    private Bundle savedInstanceState;
+//    private Bundle savedInstanceState;
 
     public void resetTimer(){
         timerTextView.setText("0:30");
