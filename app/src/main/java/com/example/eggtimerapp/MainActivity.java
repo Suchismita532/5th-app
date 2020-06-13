@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
             timerSeekBar.setEnabled(false);
             controllerButton.setText("stop");
 
-        countDownTimer= new countDownTimer(timerSeekBar.getProgress()*1000+100,1000) {
+        countDownTimer= new CountDownTimer(timerSeekBar.getProgress()*1000+100,1000) {
 
             @Override
             public void onTick(long millisUntilfinished){
