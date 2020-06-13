@@ -77,8 +77,10 @@ public class MainActivity extends AppCompatActivity
             resetTimer();
         }
     }
-        @Override
-        protected void onCreate (Bundle savedInstanceState){
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState)
+    {
         SeekBar timerSeekBar = (SeekBar) findViewById(R.id.timerSeekBar);
         timerTextView = (TextView) findViewById(R.id.timerTextView);
         controllerButton = (Button) findViewById(R.id.controllerButton);
@@ -107,4 +109,4 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-    }
+}
