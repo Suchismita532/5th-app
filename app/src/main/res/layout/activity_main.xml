@@ -10,53 +10,46 @@
         android:id="@+id/timerSeekBar"
         android:layout_width="400dp"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="6dp"
-        android:layout_marginRight="6dp"
-        android:layout_marginBottom="627dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.074" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="447dp"
-        android:layout_height="1106dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/timerSeekBar"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.281"
+        android:layout_width="match_parent"
+        android:layout_height="379dp"
+        android:contentDescription="@string/todo"
         app:srcCompat="@drawable/egg"
-        android:contentDescription="@string/todo" />
+        tools:layout_editor_absoluteX="-6dp"
+        tools:layout_editor_absoluteY="124dp" />
 
-    <EditText
+    <TextView
         android:id="@+id/timerTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="200dp"
-        android:layout_marginLeft="200dp"
-        android:layout_marginTop="900dp"
-        android:ems="10"
-        android:inputType="textPersonName"
+        android:gravity="center"
         android:text="@string/_00_30"
         android:textSize="70sp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.376" />
 
     <Button
         android:id="@+id/controllerButton"
         android:layout_width="183dp"
         android:layout_height="107dp"
-        android:layout_marginTop="1300dp"
-        android:layout_marginEnd="400dp"
-        android:layout_marginRight="400dp"
         android:text="Go!"
         android:textSize="40sp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.881" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
