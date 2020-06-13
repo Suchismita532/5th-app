@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onFinish(){
                 resetTimer();
-                MediaPlayer mplayer=MediaPlayer.create(getApplicationContext(),R.new.alarm);
+                MediaPlayer mplayer=MediaPlayer.create(getApplicationContext(),R.raw.alarm);
                 mplayer.start();
             }
 
